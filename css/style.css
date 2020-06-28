@@ -109,7 +109,8 @@ span{
     padding-right: 0.08em;
 }
 
-
+.attribution { font-size: 11px; text-align: center; margin-top: -50px;}
+    .attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
 
 @media screen and (max-width: 800px){
     body{
@@ -131,9 +132,4 @@ span{
 
 
 
-
-/***
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> **/
+    
