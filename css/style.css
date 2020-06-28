@@ -21,6 +21,12 @@ ul{
     padding: 0;
 }
 
+li{
+    padding-bottom: 2px;
+    font-size: 14px;
+    color: hsl(204, 43%, 93%);
+}
+
 .container{
     display: grid;
     grid-template: 0.9fr 1fr/1fr 1fr;
@@ -44,7 +50,7 @@ ul{
  padding: 0 20px;
  background-color: hsl(179, 62%, 43%);
  border: 10px solid hsl(179, 62%, 43%);
- color: #ffffff;;
+ color: #fffafa
  
 }
 
@@ -53,9 +59,10 @@ ul{
     position: relative;
     background-color: #4abebd;
     border: 10px solid #4abebd;
-    color: #ffffff;
+    color: #fffafa
 }
 
+ 
 
 
 button{
@@ -87,7 +94,7 @@ button{
 }
 
 h3{
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .price{
@@ -96,9 +103,9 @@ h3{
 
 
 span{
-    color: #ffffff;
-    font-size: 30px;
-    font-weight: 700;
+    color: #fffafa;
+    font-size: 2em;
+    font-weight: 400;
     padding-right: 0.08em;
 }
 
